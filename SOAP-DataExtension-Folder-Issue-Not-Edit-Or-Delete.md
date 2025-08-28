@@ -1,19 +1,5 @@
 # 🧩 Problema ao Criar Pasta de Data Extension via SOAP API no Salesforce Marketing Cloud
 
-## 📌 Sumário
-- [Descrição do Problema](#descrição-do-problema)
-- [Causa do Problema](#causa-do-problema)
-- [Solução](#solução)
-  - [1. Recuperar o `ObjectID` da Pasta](#1-recuperar-o-objectid-da-pasta)
-  - [2. Atualizar as Propriedades da Pasta](#2-atualizar-as-propriedades-da-pasta)
-- [SOAP Requests](#soap-requests)
-  - [Retrieve da Pasta Principal de Data Extensions](#retrieve-da-pasta-principal-de-data-extensions)
-  - [Retrieve do `ObjectID` da Pasta Criada](#retrieve-do-objectid-da-pasta-criada)
-  - [Update para Habilitar Edição e Exclusão](#update-para-habilitar-edição-e-exclusão)
-- [Resumo da Solução](#resumo-da-solução)
-
----
-
 ## 📌 Descrição do Problema
 
 Durante o desenvolvimento com **Salesforce Marketing Cloud**, criei uma pasta de **Data Extension** via **SOAP API**.  
